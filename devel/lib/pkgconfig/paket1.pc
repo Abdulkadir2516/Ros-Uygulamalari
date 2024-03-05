@@ -1,0 +1,8 @@
+prefix=/home/tusmec/catkin_ws/devel
+
+Name: paket1
+Description: Description of paket1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

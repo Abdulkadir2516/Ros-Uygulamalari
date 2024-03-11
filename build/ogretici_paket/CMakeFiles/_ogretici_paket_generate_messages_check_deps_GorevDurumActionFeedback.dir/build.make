@@ -67,7 +67,7 @@ include ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_G
 include ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback.dir/progress.make
 
 ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback:
-	cd /home/tusmec/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ogretici_paket /home/tusmec/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg std_msgs/Header:actionlib_msgs/GoalStatus:ogretici_paket/GorevDurumFeedback:actionlib_msgs/GoalID
+	cd /home/tusmec/catkin_ws/build/ogretici_paket && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ogretici_paket /home/tusmec/catkin_ws/devel/share/ogretici_paket/msg/GorevDurumActionFeedback.msg actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:ogretici_paket/GorevDurumFeedback:std_msgs/Header
 
 _ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback
 _ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback: ogretici_paket/CMakeFiles/_ogretici_paket_generate_messages_check_deps_GorevDurumActionFeedback.dir/build.make

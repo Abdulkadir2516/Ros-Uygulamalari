@@ -5,8 +5,11 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("egitim_robotu_description")
+subdirs("egitim_robotu_gazebo")
 subdirs("labirent_ortam")
 subdirs("basit_uygulamalar")
+subdirs("slam_ve_navigasyon")
 subdirs("turtlebot3/turtlebot3")
 subdirs("turtlebot3_msgs")
 subdirs("turtlebot3/turtlebot3_navigation")

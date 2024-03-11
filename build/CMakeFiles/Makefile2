@@ -64,8 +64,11 @@ CMAKE_BINARY_DIR = /home/tusmec/catkin_ws/build
 
 # The main recursive "all" target.
 all: gtest/all
+all: egitim_robotu_description/all
+all: egitim_robotu_gazebo/all
 all: labirent_ortam/all
 all: basit_uygulamalar/all
+all: slam_ve_navigasyon/all
 all: turtlebot3/turtlebot3/all
 all: turtlebot3_msgs/all
 all: turtlebot3/turtlebot3_navigation/all
@@ -83,8 +86,11 @@ all: turtlebot3/turtlebot3_description/all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
+preinstall: egitim_robotu_description/preinstall
+preinstall: egitim_robotu_gazebo/preinstall
 preinstall: labirent_ortam/preinstall
 preinstall: basit_uygulamalar/preinstall
+preinstall: slam_ve_navigasyon/preinstall
 preinstall: turtlebot3/turtlebot3/preinstall
 preinstall: turtlebot3_msgs/preinstall
 preinstall: turtlebot3/turtlebot3_navigation/preinstall
@@ -107,8 +113,11 @@ clean: CMakeFiles/run_tests.dir/clean
 clean: CMakeFiles/clean_test_results.dir/clean
 clean: CMakeFiles/doxygen.dir/clean
 clean: gtest/clean
+clean: egitim_robotu_description/clean
+clean: egitim_robotu_gazebo/clean
 clean: labirent_ortam/clean
 clean: basit_uygulamalar/clean
+clean: slam_ve_navigasyon/clean
 clean: turtlebot3/turtlebot3/clean
 clean: turtlebot3_msgs/clean
 clean: turtlebot3/turtlebot3_navigation/clean
@@ -150,6 +159,36 @@ basit_uygulamalar/clean: basit_uygulamalar/CMakeFiles/basit_uygulamalar_gennodej
 basit_uygulamalar/clean: basit_uygulamalar/CMakeFiles/basit_uygulamalar_generate_messages_py.dir/clean
 basit_uygulamalar/clean: basit_uygulamalar/CMakeFiles/basit_uygulamalar_genpy.dir/clean
 .PHONY : basit_uygulamalar/clean
+
+#=============================================================================
+# Directory level rules for directory egitim_robotu_description
+
+# Recursive "all" directory target.
+egitim_robotu_description/all:
+.PHONY : egitim_robotu_description/all
+
+# Recursive "preinstall" directory target.
+egitim_robotu_description/preinstall:
+.PHONY : egitim_robotu_description/preinstall
+
+# Recursive "clean" directory target.
+egitim_robotu_description/clean: egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : egitim_robotu_description/clean
+
+#=============================================================================
+# Directory level rules for directory egitim_robotu_gazebo
+
+# Recursive "all" directory target.
+egitim_robotu_gazebo/all:
+.PHONY : egitim_robotu_gazebo/all
+
+# Recursive "preinstall" directory target.
+egitim_robotu_gazebo/preinstall:
+.PHONY : egitim_robotu_gazebo/preinstall
+
+# Recursive "clean" directory target.
+egitim_robotu_gazebo/clean:
+.PHONY : egitim_robotu_gazebo/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
@@ -211,7 +250,7 @@ labirent_ortam/preinstall:
 .PHONY : labirent_ortam/preinstall
 
 # Recursive "clean" directory target.
-labirent_ortam/clean: labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/clean
+labirent_ortam/clean:
 .PHONY : labirent_ortam/clean
 
 #=============================================================================
@@ -279,6 +318,21 @@ paket1/preinstall:
 # Recursive "clean" directory target.
 paket1/clean:
 .PHONY : paket1/clean
+
+#=============================================================================
+# Directory level rules for directory slam_ve_navigasyon
+
+# Recursive "all" directory target.
+slam_ve_navigasyon/all:
+.PHONY : slam_ve_navigasyon/all
+
+# Recursive "preinstall" directory target.
+slam_ve_navigasyon/preinstall:
+.PHONY : slam_ve_navigasyon/preinstall
+
+# Recursive "clean" directory target.
+slam_ve_navigasyon/clean:
+.PHONY : slam_ve_navigasyon/clean
 
 #=============================================================================
 # Directory level rules for directory turtlebot3/turtlebot3
@@ -778,30 +832,30 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/clean
 
 #=============================================================================
-# Target rules for target labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir
+# Target rules for target egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir
 
 # All Build rule for target.
-labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) $(MAKESILENT) -f labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/build.make labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) $(MAKESILENT) -f labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/build.make labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/build
+egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) $(MAKESILENT) -f egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) $(MAKESILENT) -f egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tusmec/catkin_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
-.PHONY : labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/all
+.PHONY : egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
-labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tusmec/catkin_ws/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tusmec/catkin_ws/build/CMakeFiles 0
-.PHONY : labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/rule
+_catkin_empty_exported_target: egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : _catkin_empty_exported_target
 
 # clean rule for target.
-labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) $(MAKESILENT) -f labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/build.make labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : labirent_ortam/CMakeFiles/_catkin_empty_exported_target.dir/clean
+egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) $(MAKESILENT) -f egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : egitim_robotu_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 #=============================================================================
 # Target rules for target basit_uygulamalar/CMakeFiles/basit_uygulamalar_generate_messages.dir

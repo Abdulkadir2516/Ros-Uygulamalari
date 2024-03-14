@@ -15,7 +15,8 @@ class CameraSubscriber:
         
 
     def camera_callback(self, data):
-        
+        s
+
         
         try:
             im = np.ndarray(shape=(480, 640, 3), dtype="uint8")
